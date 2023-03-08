@@ -1,0 +1,402 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    background-color: #eeffdb;
+}
+
+#texto {
+    text-align: center;
+    color: #71dbd2;
+    font-weight: bold;
+}
+
+.textoDescripcion {
+    color: #818181;
+    text-align: center;
+}
+
+.titulo{
+    color: #343a40;
+}
+
+@media only screen and (max-width: 600px){
+
+   
+    .inicio{
+            height: 400px;
+            max-width: 100%;
+        }
+        #texto{
+            padding: 60px;
+            font-size: 40px;
+        }
+        .titulo{
+            padding-left: 30px;
+            margin-top: 30px;
+            font-size: 25px;
+        }
+        
+        .textoDescripcion {
+            padding: 30px;
+            font-size: 20px;
+        }
+        
+        .boton {
+            margin-left: 40px;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 50%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+          }
+        
+          /* Estilos para el contenido de la ventana modal */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+          }
+          
+          /* Estilos para el botón de cerrar */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+          }
+          
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+          }
+        .imgResp{
+            max-width: 200px;
+            max-height: 200px;
+        }
+        hr{
+            background-color: #000000;
+            width: 80%;
+            margin-left: 10%;
+        }
+        
+        .eduExp{
+            display: inline-block;
+            margin-top: 40px;
+            margin-left: 20px;
+            border: 4px solid #76b5a0;
+            border-radius: 15%;
+            max-width: 90%;
+            background-color: #ffffff;
+        }
+        .subtitulo{
+            padding:20px;
+        }
+        
+        .listas{
+            margin-left: 25px;
+            padding-top: 10px;
+        }
+        .educacion {
+            display: flex;
+            flex-direction: column;
+            margin: 30px;
+            padding: 10px;
+        }
+        
+        .Habilidades{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 100vw;
+        }
+        
+        .img{
+            max-width: 20%;
+            padding: 5px;
+        }
+        
+        .listaHabilidades{
+            padding-top: 10px;
+        }
+        .hBlandas{
+            padding: 30px;
+            border: 2px solid;
+            margin: 30px;
+            background-color: #76b5a0;
+        }
+        
+        .seccionProyectos{
+            margin-bottom: 40px;
+        }
+        .tituloProyectos{
+            text-align: center;
+            margin-top: 60px;
+            font-size: 30px;
+            padding-bottom: 30px;
+        }
+        .titProy {
+            text-align: center;
+            font-size: 25px;
+        }
+        .descProyecto{
+            padding: 30px;
+            font-size: 20px;
+            text-align: justify;
+        }
+        
+        }
+    
+        @media all and (min-width: 601px) and (max-width: 991px) {
+
+            .inicio{
+                height: 80%;
+                width: 100%;
+                
+            }
+            #texto{
+                padding-top: 30px;
+                font-size: 30px;
+            }
+            .titulo{
+                padding-left: 20px;
+                margin-top: 30px;
+                font-size: 30px;
+            }
+            .textoDescripcion {
+                padding: 20px;
+                font-size: 25px;
+            }
+            .boton {
+                margin-left: 30px;
+            }
+            hr{
+                background-color: #000000;
+                width: 80%;
+                margin-left: 10%;
+            }
+        .eduExp{
+            display: inline-block;
+            margin-top: 40px;
+            margin-left: 150px;
+            border: 3px solid #76b5a0;
+            border-radius: 10%;
+            padding: 20px;
+            width: 70%;
+            background-color: #ffffff;
+        }
+        .subtitulo{
+            padding:20px;
+        }
+        
+        .listas{
+            margin-left: 20px;
+            padding-top: 10px;
+        }
+        
+        .educacion {
+            display: flex;
+            margin: 20px;
+            padding: 10px;
+        }
+        
+        .tituloEd{
+            font-size: 20px;
+            padding-right: 30px;
+        }
+        
+        .Habilidades{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 100vw;
+        }
+        
+        .img{
+            max-width: 12%;
+            padding: 10px;
+        }
+        
+        .listaHabilidades{
+            padding-top: 20px;
+        }
+        .hBlandas{
+            padding: 30px;
+            border: 2px solid;
+            margin: 30px;
+            background-color: #76b5a0;
+        }
+        
+        .tituloProyectos{
+            padding: 30px;
+            font-size: 30px;
+            text-align: center;
+        }
+        .seccionProyectos{
+            margin-bottom: 60px;
+        }
+        
+        }
+@media only screen and (min-width: 992px) {
+
+
+.inicio{
+    
+    height: 700px;
+    width: 100%;
+    
+}
+#texto{
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+
+.titulo{
+    padding-left: 40px;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.textoDescripcion {
+    padding: 40px;
+    font-size: 25px;
+}
+
+.boton {
+    margin-left: 50px;
+}
+/* Estilos para la ventana modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  /* Estilos para el contenido de la ventana modal */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* Estilos para el botón de cerrar */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.ancho{
+    max-width: 50%;
+}
+hr{
+    background-color: #000000;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.eduExp{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 300px;
+    border: 4px solid #76b5a0;
+    border-radius: 15%;
+    padding: 30px;
+    width: 50%;
+    background-color: #ffffff;
+}
+.subtitulo{
+    padding:30px;
+}
+
+.listas{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.educacion {
+    display: flex;
+    margin: 30px;
+    padding: 10px;
+}
+
+.Habilidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100vw;
+}
+
+.img{
+    max-width: 15%;
+    padding: 10px;
+}
+
+.listaHabilidades{
+    padding-top: 30px;
+}
+.hBlandas{
+    padding: 60px;
+    border: 2px solid;
+    margin: 30px;
+    background-color: #76b5a0;
+}
+
+.seccionProyectos{
+    margin-bottom: 80px;
+}
+.tituloProyectos{
+    padding-left: 40px;
+    margin-top: 80px;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.titProy {
+    text-align: center;
+    font-size: 25px;
+}
+.descProyecto{
+    padding: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+}
+
+
+
